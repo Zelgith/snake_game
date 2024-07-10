@@ -125,8 +125,8 @@ function gameLoop() {
                 apple.y = getRandomInt(0, game.width / grid - 1) * grid;
             }
         }
-        scoretext.innerText = `Current score: ${score}`;
-        besttext.innerText = `Best score: ${best}`;
+        scoreText.innerText = `Current score: ${score}`;
+        bestText.innerText = `Best score: ${best}`;
     });
 }
 
