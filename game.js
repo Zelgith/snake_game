@@ -14,7 +14,7 @@ window.addEventListener("resize", resizeGame);
 var grid = 40; //must be a divisor of width and height
 
 //frames per second
-var fps = 15;
+var fps = 10;
 
 var snake = {
     //position
